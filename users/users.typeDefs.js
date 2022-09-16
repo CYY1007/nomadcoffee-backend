@@ -7,7 +7,7 @@ type User{
     username: String!
     email: String!
     location: String!
-    avatarURL: String
+    avatarURL: Upload
     githubUsername: String!
     createdAt: String!
     updatedAt: String! 
