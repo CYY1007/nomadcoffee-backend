@@ -10,6 +10,11 @@ type User{
     avatarURL: Upload
     githubUsername: String!
     createdAt: String!
-    updatedAt: String! 
+    updatedAt: String!
+    followers: [User]
+    following: [User]
+    isMe: Boolean
+    totalFollowers: Int
+    totalFollowings: Int
 }
 `
